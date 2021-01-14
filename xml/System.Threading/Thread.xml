@@ -637,12 +637,13 @@ This method is obsolete. On .NET 5.0 and later versions, calling this method pro
       </Docs>
     </Member>
     <Member MemberName="Abort">
-      <MemberSignature Language="C#" Value="public void Abort (object stateInfo);" />
+      <MemberSignature Language="C#" Value="public void Abort (object? stateInfo);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Abort(object stateInfo) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.Thread.Abort(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Abort (stateInfo As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Abort(System::Object ^ stateInfo);" />
       <MemberSignature Language="F#" Value="member this.Abort : obj -&gt; unit" Usage="thread.Abort stateInfo" />
+      <MemberSignature Language="C#" Value="public void Abort (object stateInfo);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -3537,12 +3538,13 @@ The value is not guaranteed to be a zero-based processor number.
       </Docs>
     </Member>
     <Member MemberName="Start">
-      <MemberSignature Language="C#" Value="public void Start (object parameter);" />
+      <MemberSignature Language="C#" Value="public void Start (object? parameter);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Start(object parameter) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.Thread.Start(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Start (parameter As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Start(System::Object ^ parameter);" />
       <MemberSignature Language="F#" Value="member this.Start : obj -&gt; unit" Usage="thread.Start parameter" />
+      <MemberSignature Language="C#" Value="public void Start (object parameter);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Thread</AssemblyName>
@@ -4348,12 +4350,13 @@ When you call the `Suspend` method on a thread, the system notes that a thread s
       </Docs>
     </Member>
     <Member MemberName="VolatileRead">
-      <MemberSignature Language="C#" Value="public static object VolatileRead (ref object address);" />
+      <MemberSignature Language="C#" Value="public static object? VolatileRead (ref object? address);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object VolatileRead(object&amp; address) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.Thread.VolatileRead(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function VolatileRead (ByRef address As Object) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ VolatileRead(System::Object ^ % address);" />
       <MemberSignature Language="F#" Value="static member VolatileRead : obj -&gt; obj" Usage="System.Threading.Thread.VolatileRead address" />
+      <MemberSignature Language="C#" Value="public static object VolatileRead (ref object address);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -5128,12 +5131,13 @@ When you call the `Suspend` method on a thread, the system notes that a thread s
       </Docs>
     </Member>
     <Member MemberName="VolatileWrite">
-      <MemberSignature Language="C#" Value="public static void VolatileWrite (ref object address, object value);" />
+      <MemberSignature Language="C#" Value="public static void VolatileWrite (ref object? address, object? value);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void VolatileWrite(object&amp; address, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.Thread.VolatileWrite(System.Object@,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub VolatileWrite (ByRef address As Object, value As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void VolatileWrite(System::Object ^ % address, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="static member VolatileWrite : obj * obj -&gt; unit" Usage="System.Threading.Thread.VolatileWrite (address, value)" />
+      <MemberSignature Language="C#" Value="public static void VolatileWrite (ref object address, object value);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>

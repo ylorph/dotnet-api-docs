@@ -327,7 +327,7 @@ Use the [HttpCfg.exe](/windows/win32/http/httpcfg-exe) tool to add SSL certifica
       </Docs>
     </Member>
     <Member MemberName="BeginGetContext">
-      <MemberSignature Language="C#" Value="public IAsyncResult? BeginGetContext (AsyncCallback callback, object state);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginGetContext (AsyncCallback? callback, object? state);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginGetContext(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.HttpListener.BeginGetContext(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginGetContext (callback As AsyncCallback, state As Object) As IAsyncResult" />

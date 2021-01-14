@@ -1644,7 +1644,7 @@ XmlTextReader reader = new XmlTextReader(s);
       </Docs>
     </Member>
     <Member MemberName="GetAttribute">
-      <MemberSignature Language="C#" Value="public override string GetAttribute (string? localName, string namespaceURI);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public override string? GetAttribute (string localName, string? namespaceURI);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string GetAttribute(string localName, string namespaceURI) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.XmlTextReader.GetAttribute(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetAttribute (localName As String, namespaceURI As String) As String" />

@@ -525,7 +525,7 @@ If you use this property to set command-line arguments, <xref:System.Diagnostics
       </Docs>
     </Member>
     <Member MemberName="Environment">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt;? Environment { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string?&gt; Environment { get; }" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Environment" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.ProcessStartInfo.Environment" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Environment As IDictionary(Of String, String)" />

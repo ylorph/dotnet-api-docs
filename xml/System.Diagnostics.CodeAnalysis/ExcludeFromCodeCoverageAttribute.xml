@@ -95,7 +95,7 @@
       </Docs>
     </Member>
     <Member MemberName="Justification">
-      <MemberSignature Language="C#" Value="public string Justification { get; set; }" />
+      <MemberSignature Language="C#" Value="public string? Justification { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Justification" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute.Justification" />
       <MemberSignature Language="VB.NET" Value="Public Property Justification As String" />

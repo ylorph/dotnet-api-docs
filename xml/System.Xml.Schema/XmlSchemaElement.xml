@@ -228,13 +228,12 @@
       </Docs>
     </Member>
     <Member MemberName="Constraints">
-      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchemaObjectCollection? Constraints { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchemaObjectCollection Constraints { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.Schema.XmlSchemaObjectCollection Constraints" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Schema.XmlSchemaElement.Constraints" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Constraints As XmlSchemaObjectCollection" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::Schema::XmlSchemaObjectCollection ^ Constraints { System::Xml::Schema::XmlSchemaObjectCollection ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Constraints : System.Xml.Schema.XmlSchemaObjectCollection" Usage="System.Xml.Schema.XmlSchemaElement.Constraints" />
-      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchemaObjectCollection Constraints { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -286,12 +285,13 @@
       </Docs>
     </Member>
     <Member MemberName="DefaultValue">
-      <MemberSignature Language="C#" Value="public string DefaultValue { get; set; }" />
+      <MemberSignature Language="C#" Value="public string? DefaultValue { get; set; }" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string DefaultValue" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Schema.XmlSchemaElement.DefaultValue" />
       <MemberSignature Language="VB.NET" Value="Public Property DefaultValue As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DefaultValue { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.DefaultValue : string with get, set" Usage="System.Xml.Schema.XmlSchemaElement.DefaultValue" />
+      <MemberSignature Language="C#" Value="public string DefaultValue { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -347,12 +347,13 @@
       </Docs>
     </Member>
     <Member MemberName="ElementSchemaType">
-      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchemaType ElementSchemaType { get; }" />
+      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchemaType? ElementSchemaType { get; }" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.Schema.XmlSchemaType ElementSchemaType" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Schema.XmlSchemaElement.ElementSchemaType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ElementSchemaType As XmlSchemaType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::Schema::XmlSchemaType ^ ElementSchemaType { System::Xml::Schema::XmlSchemaType ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ElementSchemaType : System.Xml.Schema.XmlSchemaType" Usage="System.Xml.Schema.XmlSchemaElement.ElementSchemaType" />
+      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchemaType ElementSchemaType { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -399,12 +400,13 @@
       </Docs>
     </Member>
     <Member MemberName="ElementType">
-      <MemberSignature Language="C#" Value="public object ElementType { get; }" />
+      <MemberSignature Language="C#" Value="public object? ElementType { get; }" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".property instance object ElementType" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Schema.XmlSchemaElement.ElementType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ElementType As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ElementType { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ElementType : obj" Usage="System.Xml.Schema.XmlSchemaElement.ElementType" />
+      <MemberSignature Language="C#" Value="public object ElementType { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -594,12 +596,13 @@
       </Docs>
     </Member>
     <Member MemberName="FixedValue">
-      <MemberSignature Language="C#" Value="public string FixedValue { get; set; }" />
+      <MemberSignature Language="C#" Value="public string? FixedValue { get; set; }" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string FixedValue" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Schema.XmlSchemaElement.FixedValue" />
       <MemberSignature Language="VB.NET" Value="Public Property FixedValue As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FixedValue { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FixedValue : string with get, set" Usage="System.Xml.Schema.XmlSchemaElement.FixedValue" />
+      <MemberSignature Language="C#" Value="public string FixedValue { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -830,12 +833,13 @@
       </Docs>
     </Member>
     <Member MemberName="Name">
-      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="C#" Value="public string? Name { get; set; }" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Schema.XmlSchemaElement.Name" />
       <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="System.Xml.Schema.XmlSchemaElement.Name" />
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -891,13 +895,12 @@
       </Docs>
     </Member>
     <Member MemberName="QualifiedName">
-      <MemberSignature Language="C#" Value="public System.Xml.XmlQualifiedName? QualifiedName { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.XmlQualifiedName QualifiedName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlQualifiedName QualifiedName" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Schema.XmlSchemaElement.QualifiedName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QualifiedName As XmlQualifiedName" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::XmlQualifiedName ^ QualifiedName { System::Xml::XmlQualifiedName ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.QualifiedName : System.Xml.XmlQualifiedName" Usage="System.Xml.Schema.XmlSchemaElement.QualifiedName" />
-      <MemberSignature Language="C#" Value="public System.Xml.XmlQualifiedName QualifiedName { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -945,13 +948,12 @@
       </Docs>
     </Member>
     <Member MemberName="RefName">
-      <MemberSignature Language="C#" Value="public System.Xml.XmlQualifiedName? RefName { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.XmlQualifiedName RefName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlQualifiedName RefName" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Schema.XmlSchemaElement.RefName" />
       <MemberSignature Language="VB.NET" Value="Public Property RefName As XmlQualifiedName" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::XmlQualifiedName ^ RefName { System::Xml::XmlQualifiedName ^ get(); void set(System::Xml::XmlQualifiedName ^ value); };" />
       <MemberSignature Language="F#" Value="member this.RefName : System.Xml.XmlQualifiedName with get, set" Usage="System.Xml.Schema.XmlSchemaElement.RefName" />
-      <MemberSignature Language="C#" Value="public System.Xml.XmlQualifiedName RefName { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -1001,12 +1003,13 @@
       </Docs>
     </Member>
     <Member MemberName="SchemaType">
-      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchemaType SchemaType { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchemaType? SchemaType { get; set; }" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.Schema.XmlSchemaType SchemaType" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Schema.XmlSchemaElement.SchemaType" />
       <MemberSignature Language="VB.NET" Value="Public Property SchemaType As XmlSchemaType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::Schema::XmlSchemaType ^ SchemaType { System::Xml::Schema::XmlSchemaType ^ get(); void set(System::Xml::Schema::XmlSchemaType ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SchemaType : System.Xml.Schema.XmlSchemaType with get, set" Usage="System.Xml.Schema.XmlSchemaElement.SchemaType" />
+      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchemaType SchemaType { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -1062,13 +1065,12 @@
       </Docs>
     </Member>
     <Member MemberName="SchemaTypeName">
-      <MemberSignature Language="C#" Value="public System.Xml.XmlQualifiedName? SchemaTypeName { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.XmlQualifiedName SchemaTypeName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlQualifiedName SchemaTypeName" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Schema.XmlSchemaElement.SchemaTypeName" />
       <MemberSignature Language="VB.NET" Value="Public Property SchemaTypeName As XmlQualifiedName" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::XmlQualifiedName ^ SchemaTypeName { System::Xml::XmlQualifiedName ^ get(); void set(System::Xml::XmlQualifiedName ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SchemaTypeName : System.Xml.XmlQualifiedName with get, set" Usage="System.Xml.Schema.XmlSchemaElement.SchemaTypeName" />
-      <MemberSignature Language="C#" Value="public System.Xml.XmlQualifiedName SchemaTypeName { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -1109,13 +1111,12 @@
       </Docs>
     </Member>
     <Member MemberName="SubstitutionGroup">
-      <MemberSignature Language="C#" Value="public System.Xml.XmlQualifiedName? SubstitutionGroup { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.XmlQualifiedName SubstitutionGroup { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlQualifiedName SubstitutionGroup" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Schema.XmlSchemaElement.SubstitutionGroup" />
       <MemberSignature Language="VB.NET" Value="Public Property SubstitutionGroup As XmlQualifiedName" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::XmlQualifiedName ^ SubstitutionGroup { System::Xml::XmlQualifiedName ^ get(); void set(System::Xml::XmlQualifiedName ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SubstitutionGroup : System.Xml.XmlQualifiedName with get, set" Usage="System.Xml.Schema.XmlSchemaElement.SubstitutionGroup" />
-      <MemberSignature Language="C#" Value="public System.Xml.XmlQualifiedName SubstitutionGroup { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>

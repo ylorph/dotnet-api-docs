@@ -362,12 +362,13 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="Compile">
-      <MemberSignature Language="C#" Value="public void Compile (System.Xml.Schema.ValidationEventHandler validationEventHandler);" />
+      <MemberSignature Language="C#" Value="public void Compile (System.Xml.Schema.ValidationEventHandler? validationEventHandler);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Compile(class System.Xml.Schema.ValidationEventHandler validationEventHandler) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchema.Compile(System.Xml.Schema.ValidationEventHandler)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Compile (validationEventHandler As ValidationEventHandler)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Compile(System::Xml::Schema::ValidationEventHandler ^ validationEventHandler);" />
       <MemberSignature Language="F#" Value="member this.Compile : System.Xml.Schema.ValidationEventHandler -&gt; unit" Usage="xmlSchema.Compile validationEventHandler" />
+      <MemberSignature Language="C#" Value="public void Compile (System.Xml.Schema.ValidationEventHandler validationEventHandler);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -420,12 +421,13 @@
       </Docs>
     </Member>
     <Member MemberName="Compile">
-      <MemberSignature Language="C#" Value="public void Compile (System.Xml.Schema.ValidationEventHandler validationEventHandler, System.Xml.XmlResolver resolver);" />
+      <MemberSignature Language="C#" Value="public void Compile (System.Xml.Schema.ValidationEventHandler? validationEventHandler, System.Xml.XmlResolver? resolver);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Compile(class System.Xml.Schema.ValidationEventHandler validationEventHandler, class System.Xml.XmlResolver resolver) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchema.Compile(System.Xml.Schema.ValidationEventHandler,System.Xml.XmlResolver)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Compile (validationEventHandler As ValidationEventHandler, resolver As XmlResolver)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Compile(System::Xml::Schema::ValidationEventHandler ^ validationEventHandler, System::Xml::XmlResolver ^ resolver);" />
       <MemberSignature Language="F#" Value="member this.Compile : System.Xml.Schema.ValidationEventHandler * System.Xml.XmlResolver -&gt; unit" Usage="xmlSchema.Compile (validationEventHandler, resolver)" />
+      <MemberSignature Language="C#" Value="public void Compile (System.Xml.Schema.ValidationEventHandler validationEventHandler, System.Xml.XmlResolver resolver);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -1098,7 +1100,7 @@ schema.Includes.Add(include);
       </Docs>
     </MemberGroup>
     <Member MemberName="Read">
-      <MemberSignature Language="C#" Value="public static System.Xml.Schema.XmlSchema Read (System.IO.Stream? stream, System.Xml.Schema.ValidationEventHandler validationEventHandler);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Xml.Schema.XmlSchema? Read (System.IO.Stream stream, System.Xml.Schema.ValidationEventHandler? validationEventHandler);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Xml.Schema.XmlSchema Read(class System.IO.Stream stream, class System.Xml.Schema.ValidationEventHandler validationEventHandler) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchema.Read(System.IO.Stream,System.Xml.Schema.ValidationEventHandler)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Read (stream As Stream, validationEventHandler As ValidationEventHandler) As XmlSchema" />
@@ -1142,7 +1144,7 @@ schema.Includes.Add(include);
       </Docs>
     </Member>
     <Member MemberName="Read">
-      <MemberSignature Language="C#" Value="public static System.Xml.Schema.XmlSchema Read (System.IO.TextReader? reader, System.Xml.Schema.ValidationEventHandler validationEventHandler);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Xml.Schema.XmlSchema? Read (System.IO.TextReader reader, System.Xml.Schema.ValidationEventHandler? validationEventHandler);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Xml.Schema.XmlSchema Read(class System.IO.TextReader reader, class System.Xml.Schema.ValidationEventHandler validationEventHandler) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchema.Read(System.IO.TextReader,System.Xml.Schema.ValidationEventHandler)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Read (reader As TextReader, validationEventHandler As ValidationEventHandler) As XmlSchema" />
@@ -1186,7 +1188,7 @@ schema.Includes.Add(include);
       </Docs>
     </Member>
     <Member MemberName="Read">
-      <MemberSignature Language="C#" Value="public static System.Xml.Schema.XmlSchema Read (System.Xml.XmlReader? reader, System.Xml.Schema.ValidationEventHandler validationEventHandler);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Xml.Schema.XmlSchema? Read (System.Xml.XmlReader reader, System.Xml.Schema.ValidationEventHandler? validationEventHandler);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Xml.Schema.XmlSchema Read(class System.Xml.XmlReader reader, class System.Xml.Schema.ValidationEventHandler validationEventHandler) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchema.Read(System.Xml.XmlReader,System.Xml.Schema.ValidationEventHandler)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Read (reader As XmlReader, validationEventHandler As ValidationEventHandler) As XmlSchema" />
