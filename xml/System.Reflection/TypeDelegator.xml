@@ -394,7 +394,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetConstructorImpl">
-      <MemberSignature Language="C#" Value="protected override System.Reflection.ConstructorInfo GetConstructorImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConvention, Type[]? types, System.Reflection.ParameterModifier[] modifiers);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="protected override System.Reflection.ConstructorInfo? GetConstructorImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder? binder, System.Reflection.CallingConventions callConvention, Type[] types, System.Reflection.ParameterModifier[]? modifiers);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Reflection.ConstructorInfo GetConstructorImpl(valuetype System.Reflection.BindingFlags bindingAttr, class System.Reflection.Binder binder, valuetype System.Reflection.CallingConventions callConvention, class System.Type[] types, valuetype System.Reflection.ParameterModifier[] modifiers) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeDelegator.GetConstructorImpl(System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetConstructorImpl (bindingAttr As BindingFlags, binder As Binder, callConvention As CallingConventions, types As Type(), modifiers As ParameterModifier()) As ConstructorInfo" />
@@ -602,12 +602,13 @@
       </Docs>
     </Member>
     <Member MemberName="GetElementType">
-      <MemberSignature Language="C#" Value="public override Type GetElementType ();" />
+      <MemberSignature Language="C#" Value="public override Type? GetElementType ();" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Type GetElementType() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeDelegator.GetElementType" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetElementType () As Type" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override Type ^ GetElementType();" />
       <MemberSignature Language="F#" Value="override this.GetElementType : unit -&gt; Type" Usage="typeDelegator.GetElementType " />
+      <MemberSignature Language="C#" Value="public override Type GetElementType ();" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -1112,7 +1113,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetMethodImpl">
-      <MemberSignature Language="C#" Value="protected override System.Reflection.MethodInfo GetMethodImpl (string? name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConvention, Type[]? types, System.Reflection.ParameterModifier[] modifiers);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="protected override System.Reflection.MethodInfo? GetMethodImpl (string name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder? binder, System.Reflection.CallingConventions callConvention, Type[]? types, System.Reflection.ParameterModifier[]? modifiers);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Reflection.MethodInfo GetMethodImpl(string name, valuetype System.Reflection.BindingFlags bindingAttr, class System.Reflection.Binder binder, valuetype System.Reflection.CallingConventions callConvention, class System.Type[] types, valuetype System.Reflection.ParameterModifier[] modifiers) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeDelegator.GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetMethodImpl (name As String, bindingAttr As BindingFlags, binder As Binder, callConvention As CallingConventions, types As Type(), modifiers As ParameterModifier()) As MethodInfo" />
@@ -1337,7 +1338,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetPropertyImpl">
-      <MemberSignature Language="C#" Value="protected override System.Reflection.PropertyInfo GetPropertyImpl (string? name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, Type returnType, Type[]? types, System.Reflection.ParameterModifier[] modifiers);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="protected override System.Reflection.PropertyInfo? GetPropertyImpl (string name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder? binder, Type? returnType, Type[]? types, System.Reflection.ParameterModifier[]? modifiers);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Reflection.PropertyInfo GetPropertyImpl(string name, valuetype System.Reflection.BindingFlags bindingAttr, class System.Reflection.Binder binder, class System.Type returnType, class System.Type[] types, valuetype System.Reflection.ParameterModifier[] modifiers) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeDelegator.GetPropertyImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetPropertyImpl (name As String, bindingAttr As BindingFlags, binder As Binder, returnType As Type, types As Type(), modifiers As ParameterModifier()) As PropertyInfo" />
@@ -1470,7 +1471,7 @@
       </Docs>
     </Member>
     <Member MemberName="InvokeMember">
-      <MemberSignature Language="C#" Value="public override object InvokeMember (string? name, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, object target, object[] args, System.Reflection.ParameterModifier[] modifiers, System.Globalization.CultureInfo culture, string[]? namedParameters);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override object? InvokeMember (string name, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder? binder, object? target, object?[]? args, System.Reflection.ParameterModifier[]? modifiers, System.Globalization.CultureInfo? culture, string[]? namedParameters);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object InvokeMember(string name, valuetype System.Reflection.BindingFlags invokeAttr, class System.Reflection.Binder binder, object target, object[] args, valuetype System.Reflection.ParameterModifier[] modifiers, class System.Globalization.CultureInfo culture, string[] namedParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeDelegator.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function InvokeMember (name As String, invokeAttr As BindingFlags, binder As Binder, target As Object, args As Object(), modifiers As ParameterModifier(), culture As CultureInfo, namedParameters As String()) As Object" />
@@ -1602,12 +1603,13 @@ t.InvokeMember ("MyArray", BindingFlags.SetField, null, this, new
       </Docs>
     </Member>
     <Member MemberName="IsAssignableFrom">
-      <MemberSignature Language="C#" Value="public override bool IsAssignableFrom (System.Reflection.TypeInfo typeInfo);" />
+      <MemberSignature Language="C#" Value="public override bool IsAssignableFrom (System.Reflection.TypeInfo? typeInfo);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool IsAssignableFrom(class System.Reflection.TypeInfo typeInfo) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeDelegator.IsAssignableFrom(System.Reflection.TypeInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function IsAssignableFrom (typeInfo As TypeInfo) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool IsAssignableFrom(System::Reflection::TypeInfo ^ typeInfo);" />
       <MemberSignature Language="F#" Value="override this.IsAssignableFrom : System.Reflection.TypeInfo -&gt; bool" Usage="typeDelegator.IsAssignableFrom typeInfo" />
+      <MemberSignature Language="C#" Value="public override bool IsAssignableFrom (System.Reflection.TypeInfo typeInfo);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>

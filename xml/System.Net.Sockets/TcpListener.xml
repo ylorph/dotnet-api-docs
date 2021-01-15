@@ -623,7 +623,7 @@
       </Docs>
     </Member>
     <Member MemberName="BeginAcceptSocket">
-      <MemberSignature Language="C#" Value="public IAsyncResult? BeginAcceptSocket (AsyncCallback callback, object state);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginAcceptSocket (AsyncCallback? callback, object? state);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginAcceptSocket(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Sockets.TcpListener.BeginAcceptSocket(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginAcceptSocket (callback As AsyncCallback, state As Object) As IAsyncResult" />
@@ -696,7 +696,7 @@
       </Docs>
     </Member>
     <Member MemberName="BeginAcceptTcpClient">
-      <MemberSignature Language="C#" Value="public IAsyncResult? BeginAcceptTcpClient (AsyncCallback callback, object state);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginAcceptTcpClient (AsyncCallback? callback, object? state);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginAcceptTcpClient(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Sockets.TcpListener.BeginAcceptTcpClient(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginAcceptTcpClient (callback As AsyncCallback, state As Object) As IAsyncResult" />

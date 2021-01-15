@@ -985,12 +985,13 @@ The following code example creates a process that prints a file. It sets the <xr
       </Docs>
     </Member>
     <Member MemberName="ErrorDataReceived">
-      <MemberSignature Language="C#" Value="public event System.Diagnostics.DataReceivedEventHandler ErrorDataReceived;" />
+      <MemberSignature Language="C#" Value="public event System.Diagnostics.DataReceivedEventHandler? ErrorDataReceived;" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".event class System.Diagnostics.DataReceivedEventHandler ErrorDataReceived" />
       <MemberSignature Language="DocId" Value="E:System.Diagnostics.Process.ErrorDataReceived" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ErrorDataReceived As DataReceivedEventHandler " FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Diagnostics::DataReceivedEventHandler ^ ErrorDataReceived;" />
       <MemberSignature Language="F#" Value="member this.ErrorDataReceived : System.Diagnostics.DataReceivedEventHandler " Usage="member this.ErrorDataReceived : System.Diagnostics.DataReceivedEventHandler " />
+      <MemberSignature Language="C#" Value="public event System.Diagnostics.DataReceivedEventHandler ErrorDataReceived;" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="VB.NET" Value="Public Event ErrorDataReceived As DataReceivedEventHandler " FrameworkAlternate="netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
@@ -3076,12 +3077,13 @@ The calling process is a member of the associated process' descendant tree.</exc
       </Docs>
     </Member>
     <Member MemberName="OutputDataReceived">
-      <MemberSignature Language="C#" Value="public event System.Diagnostics.DataReceivedEventHandler OutputDataReceived;" />
+      <MemberSignature Language="C#" Value="public event System.Diagnostics.DataReceivedEventHandler? OutputDataReceived;" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".event class System.Diagnostics.DataReceivedEventHandler OutputDataReceived" />
       <MemberSignature Language="DocId" Value="E:System.Diagnostics.Process.OutputDataReceived" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event OutputDataReceived As DataReceivedEventHandler " FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Diagnostics::DataReceivedEventHandler ^ OutputDataReceived;" />
       <MemberSignature Language="F#" Value="member this.OutputDataReceived : System.Diagnostics.DataReceivedEventHandler " Usage="member this.OutputDataReceived : System.Diagnostics.DataReceivedEventHandler " />
+      <MemberSignature Language="C#" Value="public event System.Diagnostics.DataReceivedEventHandler OutputDataReceived;" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="VB.NET" Value="Public Event OutputDataReceived As DataReceivedEventHandler " FrameworkAlternate="netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>

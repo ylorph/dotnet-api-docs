@@ -126,12 +126,13 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public DataViewManager (System.Data.DataSet dataSet);" />
+      <MemberSignature Language="C#" Value="public DataViewManager (System.Data.DataSet? dataSet);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Data.DataSet dataSet) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.DataViewManager.#ctor(System.Data.DataSet)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (dataSet As DataSet)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; DataViewManager(System::Data::DataSet ^ dataSet);" />
       <MemberSignature Language="F#" Value="new System.Data.DataViewManager : System.Data.DataSet -&gt; System.Data.DataViewManager" Usage="new System.Data.DataViewManager dataSet" />
+      <MemberSignature Language="C#" Value="public DataViewManager (System.Data.DataSet dataSet);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -343,12 +344,13 @@
       </Docs>
     </Member>
     <Member MemberName="ListChanged">
-      <MemberSignature Language="C#" Value="public event System.ComponentModel.ListChangedEventHandler ListChanged;" />
+      <MemberSignature Language="C#" Value="public event System.ComponentModel.ListChangedEventHandler? ListChanged;" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".event class System.ComponentModel.ListChangedEventHandler ListChanged" />
       <MemberSignature Language="DocId" Value="E:System.Data.DataViewManager.ListChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ListChanged As ListChangedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event System::ComponentModel::ListChangedEventHandler ^ ListChanged;" />
       <MemberSignature Language="F#" Value="member this.ListChanged : System.ComponentModel.ListChangedEventHandler " Usage="member this.ListChanged : System.ComponentModel.ListChangedEventHandler " />
+      <MemberSignature Language="C#" Value="public event System.ComponentModel.ListChangedEventHandler ListChanged;" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:System.ComponentModel.IBindingList.ListChanged</InterfaceMember>
@@ -1704,13 +1706,12 @@
       </Docs>
     </Member>
     <Member MemberName="System.ComponentModel.IBindingList.SortProperty">
-      <MemberSignature Language="C#" Value="System.ComponentModel.PropertyDescriptor? System.ComponentModel.IBindingList.SortProperty { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="System.ComponentModel.PropertyDescriptor System.ComponentModel.IBindingList.SortProperty { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.ComponentModel.PropertyDescriptor System.ComponentModel.IBindingList.SortProperty" />
       <MemberSignature Language="DocId" Value="P:System.Data.DataViewManager.System#ComponentModel#IBindingList#SortProperty" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property SortProperty As PropertyDescriptor Implements IBindingList.SortProperty" />
       <MemberSignature Language="C++ CLI" Value="property System::ComponentModel::PropertyDescriptor ^ System::ComponentModel::IBindingList::SortProperty { System::ComponentModel::PropertyDescriptor ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.System.ComponentModel.IBindingList.SortProperty : System.ComponentModel.PropertyDescriptor" Usage="System.ComponentModel.IBindingList.SortProperty" />
-      <MemberSignature Language="C#" Value="System.ComponentModel.PropertyDescriptor System.ComponentModel.IBindingList.SortProperty { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.ComponentModel.IBindingList.SortProperty</InterfaceMember>

@@ -360,7 +360,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public DataRelation (string? relationName, string parentTableName, string childTableName, string[]? parentColumnNames, string[]? childColumnNames, bool nested);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public DataRelation (string relationName, string? parentTableName, string? childTableName, string[]? parentColumnNames, string[]? childColumnNames, bool nested);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string relationName, string parentTableName, string childTableName, string[] parentColumnNames, string[] childColumnNames, bool nested) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.DataRelation.#ctor(System.String,System.String,System.String,System.String[],System.String[],System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (relationName As String, parentTableName As String, childTableName As String, parentColumnNames As String(), childColumnNames As String(), nested As Boolean)" />
@@ -420,7 +420,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public DataRelation (string? relationName, string parentTableName, string parentTableNamespace, string childTableName, string childTableNamespace, string[]? parentColumnNames, string[]? childColumnNames, bool nested);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public DataRelation (string relationName, string? parentTableName, string? parentTableNamespace, string? childTableName, string? childTableNamespace, string[]? parentColumnNames, string[]? childColumnNames, bool nested);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string relationName, string parentTableName, string parentTableNamespace, string childTableName, string childTableNamespace, string[] parentColumnNames, string[] childColumnNames, bool nested) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.DataRelation.#ctor(System.String,System.String,System.String,System.String,System.String,System.String[],System.String[],System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (relationName As String, parentTableName As String, parentTableNamespace As String, childTableName As String, childTableNamespace As String, parentColumnNames As String(), childColumnNames As String(), nested As Boolean)" />
