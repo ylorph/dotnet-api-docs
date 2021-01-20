@@ -565,7 +565,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="op_Addition">
-      <MemberSignature Language="C#" Value="public void operator + (ref Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator&lt;TValue&gt; , int _Right);" />
+      <MemberSignature Language="C#" Value="public void operator + (ref Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator&lt;TValue&gt; unnamedParam1, int _Right);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname instance void op_Addition(class Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator`1&lt;!TValue&gt;&amp; , int32 _Right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator`1.op_Addition(Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator{`0}@,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Operator + (ByRef  As ConstContainerRandomAccessIterator(Of TValue), _Right As Integer) As Void" />
@@ -593,7 +593,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Addition">
-      <MemberSignature Language="C#" Value="public static void operator + (ref Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator&lt;TValue&gt; , int _Left, Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator&lt;TValue&gt; _Right);" />
+      <MemberSignature Language="C#" Value="public static void operator + (ref Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator&lt;TValue&gt; unnamedParam1, int _Left, Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator&lt;TValue&gt; _Right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname void op_Addition(class Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator`1&lt;!TValue&gt;&amp; , int32 _Left, class Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator`1&lt;!TValue&gt; _Right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator`1.op_Addition(Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator{`0}@,System.Int32,Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator{`0}|System.Runtime.CompilerServices.IsByValue)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator + (ByRef  As ConstContainerRandomAccessIterator(Of TValue), _Left As Integer, _Right As ConstContainerRandomAccessIterator(Of TValue)) As Void" />
@@ -699,7 +699,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="op_Decrement">
-      <MemberSignature Language="C#" Value="public void operator -- (ref Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator&lt;TValue&gt; );" />
+      <MemberSignature Language="C#" Value="public void operator -- (ref Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator&lt;TValue&gt; unnamedParam1);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname instance void op_Decrement(class Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator`1&lt;!TValue&gt;&amp; ) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator`1.op_Decrement(Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator{`0}@)" />
       <MemberSignature Language="VB.NET" Value="Public op_Decrement (ByRef  As ConstContainerRandomAccessIterator(Of TValue)) As Void" />
@@ -1004,7 +1004,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="op_Increment">
-      <MemberSignature Language="C#" Value="public void operator ++ (ref Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator&lt;TValue&gt; );" />
+      <MemberSignature Language="C#" Value="public void operator ++ (ref Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator&lt;TValue&gt; unnamedParam1);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname instance void op_Increment(class Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator`1&lt;!TValue&gt;&amp; ) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator`1.op_Increment(Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator{`0}@)" />
       <MemberSignature Language="VB.NET" Value="Public op_Increment (ByRef  As ConstContainerRandomAccessIterator(Of TValue)) As Void" />
@@ -1380,7 +1380,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Subtraction">
-      <MemberSignature Language="C#" Value="public void operator - (ref Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator&lt;TValue&gt; , int _Right);" />
+      <MemberSignature Language="C#" Value="public void operator - (ref Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator&lt;TValue&gt; unnamedParam1, int _Right);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname instance void op_Subtraction(class Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator`1&lt;!TValue&gt;&amp; , int32 _Right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator`1.op_Subtraction(Microsoft.VisualC.StlClr.Generic.ConstContainerRandomAccessIterator{`0}@,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Operator - (ByRef  As ConstContainerRandomAccessIterator(Of TValue), _Right As Integer) As Void" />
