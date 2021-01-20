@@ -18,7 +18,7 @@
   </Base>
   <Docs>
     <summary>
-            Used to specify the version of Visual Studio from which to select associated 
+            Used to specify the version of Visual Studio from which to select associated
             tools for some methods of ToolLocationHelper
             </summary>
     <remarks>To be added.</remarks>
