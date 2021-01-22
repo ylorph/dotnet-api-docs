@@ -120,7 +120,7 @@
         <param name="name">The name of the metadata.</param>
         <summary>
             Get any metadata in the item that has the specified name,
-            otherwise returns null. 
+            otherwise returns null.
             Includes any metadata inherited from item definitions.
             Includes any built-in metadata.
             </summary>
@@ -157,7 +157,7 @@
       <Docs>
         <param name="name">The name of the metadata.</param>
         <summary>
-            Get the value of a metadata on this item, or 
+            Get the value of a metadata on this item, or
             String.Empty if it does not exist or has no value.
             Includes any metadata inherited from item definitions and any built-in metadata.
             To determine whether a piece of metadata is actually present
@@ -246,7 +246,7 @@
             </summary>
         <value>The item type. For example, "Compile".</value>
         <remarks>
-            This cannot be set, as it is used as the key into 
+            This cannot be set, as it is used as the key into
             the project's items table.
             </remarks>
       </Docs>
@@ -611,7 +611,7 @@
             </summary>
         <remarks>To be added.</remarks>
         <comments>
-            MetadataValue is assumed to be in its escaped form. 
+            MetadataValue is assumed to be in its escaped form.
             </comments>
       </Docs>
     </Member>
@@ -758,7 +758,7 @@
  ]]></format>
         </remarks>
         <comments>
-            Assumes metadataValue is unescaped. 
+            Assumes metadataValue is unescaped.
             </comments>
       </Docs>
     </Member>
