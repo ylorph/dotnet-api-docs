@@ -666,13 +666,13 @@
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
-## Remarks  
- A cookie is name/value text data from a Web server that is stored on the local (client) computer. The following cookie formats are supported: Netscape, [RFC 2109](https://www.rfc-editor.org/info/rfc2109), and [RFC 2965](https://www.rfc-editor.org/info/rfc2965).
-  
-   
-  
+## Remarks
+
+A cookie is name/value text data from a Web server that is stored on the local (client) computer. The following cookie formats are supported: Netscape, [RFC 2109](https://www.rfc-editor.org/info/rfc2109), and [RFC 2965](https://www.rfc-editor.org/info/rfc2965).
+
 ## Examples  
- The following code example checks a request for a cookie, and returns a new cookie with the response if the request did not have one.  
+
+The following code example checks a request for a cookie, and returns a new cookie with the response if the request did not have one.  
   
  :::code language="csharp" source="~/samples/snippets/csharp/VS_Snippets_Remoting/Net_Listener_Basic/CS/test.cs" id="Snippet20":::  
  :::code language="vb" source="~/samples/snippets/visualbasic/VS_Snippets_Remoting/Net_Listener_Basic/VB/test.vb" id="Snippet20":::  
