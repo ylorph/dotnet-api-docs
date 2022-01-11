@@ -1,0 +1,9 @@
+{
+    "dotnet-plat-ext-6.0": {
+        "Microsoft.Extensions.Caching.Memory": {
+            "Name": "Microsoft.Extensions.Caching.Memory",
+            "Version": "6.0.0",
+            "Feed": "https://api.nuget.org/v3/index.json"
+        }
+    }
+}
